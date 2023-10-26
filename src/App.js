@@ -21,10 +21,10 @@ function App() {
 
 const AppContainer = styled.div`
     display: grid;
-    grid-gap: 20px;
-    max-width: 800px;
+    grid-gap: 1.25rem;
+    max-width: 50rem;
     margin: 0 auto;
-    padding: 20px;
+    padding: 1.25rem;
 `;
 
 export default App;

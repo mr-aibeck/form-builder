@@ -20,9 +20,9 @@ const Radio = (props) => {
 
 const StyledLabel = styled.label`
   cursor: pointer;
-  font-size: 18px;
-  line-height: 20px;
-  margin-left: 5px;
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+  margin-left: 0.25rem;
 `;
 
 const StyledRadio = styled.span`

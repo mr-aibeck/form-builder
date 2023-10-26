@@ -10,9 +10,9 @@ const Label = ({ children }) => {
 const StyledLabel = styled.label`
     display: flex;
     flex-direction: column;
-    font-size: 18px;
-    line-height: 20px;
-    margin-bottom: 20px;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    margin-bottom: 1.25rem;
 `;
 
 export default Label;

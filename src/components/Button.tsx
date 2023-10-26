@@ -20,13 +20,13 @@ const Button = (props: ButtonProps) => {
 
 const StyledButton = styled.button`
   background: rgb(25, 118, 210);
-  border-radius: 4px;
+  border-radius: 0.25rem;
   border: none;
   color: white;
   cursor: pointer;
   display: block;
-  margin: 5px 0;
-  padding: 8px;
+  margin: 0.25rem 0;
+  padding: 0.5rem;
   width: 100%;
 
   &:hover {
@@ -34,7 +34,7 @@ const StyledButton = styled.button`
   }
   
   &:active {
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px;
   }
 `;
 

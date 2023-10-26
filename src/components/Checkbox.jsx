@@ -18,15 +18,15 @@ const Checkbox = (props) => {
 };
 
 const StyledText = styled.span`
-  font-size: 18px;
-  line-height: 20px;
-  margin-left: 5px;
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+  margin-left: 0.25rem;
 `;
 
 const StyledLabel = styled.label`
   cursor: pointer;
   display: flex;
-  margin-bottom: 5px;
+  margin-bottom: 0.25rem;
 `
 
 export default Checkbox;

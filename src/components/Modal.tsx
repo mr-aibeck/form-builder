@@ -68,7 +68,8 @@ const StyledModal = styled.div`
     flex-direction: column;
     height: auto;
     min-height: 20rem;
-    margin: 0 10px;
+    min-width: 30vw;
+    margin: 0 0.625rem;
     padding: 1rem;
 `;
 
@@ -95,7 +96,7 @@ const ModalContent = styled.main`
 
 const ModalFooter = styled.footer`
     display: flex;
-    gap: 10px;
+    gap: 0.625rem;
 `;
 
 export default Modal;

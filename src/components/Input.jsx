@@ -23,16 +23,16 @@ const Input = (props) => {
 
 const StyledInput = styled.input`
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 0.25rem;
     display: block;
-    margin: 5px 0;
-    padding: 8px;
+    margin: 0.25rem 0;
+    padding: 0.5rem;
 `;
 
 const ErrorText = styled.div`
     color: red;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 0.875rem;
+    line-height: 1rem;
 `;
 
 export default Input;

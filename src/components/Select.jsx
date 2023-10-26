@@ -21,14 +21,14 @@ const StyledSelect = styled.select`
   appearance: none;
   background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
   background-repeat: no-repeat;
-  background-position: right 8px center;
-  background-size: 20px;
+  background-position: right 0.5rem center;
+  background-size: 1.25rem;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   cursor: pointer;
   display: block;
-  margin: 5px 5px 5px 0px;
-  padding: 8px;
+  margin: 0.25rem 0.25rem 0.25rem 0;
+  padding: 0.5rem;
   width: 100%;
 `;
 

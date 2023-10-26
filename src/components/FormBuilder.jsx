@@ -236,7 +236,7 @@ const FormBuilder = ({ fields, setFields }) => {
 const StyledFormBuilder = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 1.25rem;
 
     @media (max-width: 768px) {
       display: block;
@@ -244,14 +244,14 @@ const StyledFormBuilder = styled.div`
 `;
 
 const StyledTitle = styled.h2`
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
 `
 
 const ColumnWrapper = styled.div`
     align-items: center;
     display: flex;
-    gap: 10px;
+    gap: 0.625rem;
     width: 100%;
 
     button {
@@ -266,12 +266,12 @@ const OptionName = styled.div`
 const StyledFormItem = styled.div`
   background: white;
   border: 1px solid #ccc;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 10px;
-  padding: 12px 10px;
+  margin-bottom: 0.625rem;
+  padding: 0.75rem 0.625rem;
 `
 
 export default FormBuilder;
