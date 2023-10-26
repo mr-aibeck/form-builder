@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/form-builder/static/css/main.58462fbc.css",
+    "main.js": "/form-builder/static/js/main.90704329.js",
+    "index.html": "/form-builder/index.html",
+    "main.58462fbc.css.map": "/form-builder/static/css/main.58462fbc.css.map",
+    "main.90704329.js.map": "/form-builder/static/js/main.90704329.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58462fbc.css",
+    "static/js/main.90704329.js"
+  ]
+}
